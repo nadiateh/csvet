@@ -41,6 +41,8 @@ def make_row(i):
     signup = date(2022, 1, 1) + timedelta(days=random.randint(0, 1460))
     city = random.choice(list(CITY_VARIANTS))
     spend = round(random.uniform(199, 2999), 2)
+    age = random.randint(18, 70)
+    flags = []
 
     clean = {
         "customer_id": i,
@@ -48,6 +50,7 @@ def make_row(i):
         "signup_date": signup.isoformat(),
         "city": city,
         "monthly_spend": f"{spend:.2f}",
+        "age": str(age)
     }
 
     messy = {
@@ -56,10 +59,31 @@ def make_row(i):
         "signup_date": signup.strftime(random.choice(DATE_FORMATS)),
         "city": random.choice(CITY_VARIANTS[city]),
         "monthly_spend": messy_money(spend),
+        "age": str(age)
     }
-    if random.random() < 0.05:
+    # monthly spend
+    roll = random.random()
+    if roll < 0.05:
         messy["monthly_spend"] = random.choice(["", "N/A", "-"])
         clean["monthly_spend"] = ""
+    elif roll < 0.07:
+        wrong = f"{spend * 1000:.2f}"
+        messy["monthly_spend"] = wrong
+        clean["monthly_spend"] = wrong
+        flags.append("monthly_spend:outlier")
+    
+    # age
+    roll = random.random()
+    if roll < 0.05:
+        messy["age"] = random.choice(["", "N/A", "unknown"])
+        clean["age"] = ""
+    elif roll < 0.07:
+        bad = random.choice(["-5", "230", "0"])
+        messy["age"] = bad
+        clean["age"] = bad
+        flags.append("age:invalid")
+    clean["expected_flags"] = ";".join(flags)
+
     return clean, messy
 
 def write_csv(path, rows):
