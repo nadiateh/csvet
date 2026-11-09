@@ -27,17 +27,27 @@ def messy_name(name):
         return " " + name.replace(" ", "  ") + " "
     return name
 
+def messy_money(amount):
+    return random.choice([
+        f"{amount:.2f}",
+        f"₱{amount:,.2f}",
+        f"PHP {amount:.2f}",
+        f" {amount:,.2f}",
+    ])
+
 def make_row(i):
     first = random.choice(FIRST_NAMES)
     last = random.choice(LAST_NAMES)
     signup = date(2022, 1, 1) + timedelta(days=random.randint(0, 1460))
     city = random.choice(list(CITY_VARIANTS))
+    spend = round(random.uniform(199, 2999), 2)
 
     clean = {
         "customer_id": i,
         "full_name": f"{first} {last}",
         "signup_date": signup.isoformat(),
         "city": city,
+        "monthly_spend": f"{spend:.2f}",
     }
 
     messy = {
@@ -45,7 +55,11 @@ def make_row(i):
         "full_name": messy_name(clean["full_name"]),
         "signup_date": signup.strftime(random.choice(DATE_FORMATS)),
         "city": random.choice(CITY_VARIANTS[city]),
+        "monthly_spend": messy_money(spend),
     }
+    if random.random() < 0.05:
+        messy["monthly_spend"] = random.choice(["", "N/A", "-"])
+        clean["monthly_spend"] = ""
     return clean, messy
 
 def write_csv(path, rows):
