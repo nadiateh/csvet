@@ -1,0 +1,12 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# files produced by running the cleaner
+data/output/
+scripts/make_messy_data_full.py

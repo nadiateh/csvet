@@ -1,0 +1,301 @@
+customer_id,full_name,signup_date,city
+1,Juan Santos,2025-01-22,Makati
+2,Ana Garcia,2023-03-08,Makati
+3,Maria Santos,2025-05-26,Makati
+4,Ana Santos,2022-05-23,Quezon City
+5,Maria Santos,2024-11-03,Pasig
+6,Ana Santos,2023-02-14,Quezon City
+7,Jose Dela Cruz,2024-12-01,Pasig
+8,Ana Santos,2023-02-18,Pasig
+9,Ana Garcia,2024-02-05,Makati
+10,Ana Santos,2023-04-17,Makati
+11,Maria Garcia,2022-03-05,Makati
+12,Jose Reyes,2025-10-13,Cebu City
+13,Maria Garcia,2024-12-02,Makati
+14,Ana Santos,2025-10-06,Cebu City
+15,Jose Garcia,2023-04-19,Makati
+16,Ana Garcia,2025-11-08,Pasig
+17,Juan Garcia,2024-01-19,Pasig
+18,Ana Santos,2025-02-14,Quezon City
+19,Jose Garcia,2022-05-28,Makati
+20,Juan Garcia,2024-11-03,Pasig
+21,Ana Garcia,2024-03-30,Quezon City
+22,Jose Reyes,2024-12-11,Quezon City
+23,Ana Reyes,2024-03-13,Cebu City
+24,Juan Garcia,2023-05-15,Quezon City
+25,Ana Santos,2022-02-14,Makati
+26,Ana Dela Cruz,2023-05-11,Quezon City
+27,Juan Dela Cruz,2023-07-02,Cebu City
+28,Ana Reyes,2023-03-01,Quezon City
+29,Maria Dela Cruz,2023-11-09,Quezon City
+30,Juan Dela Cruz,2025-05-21,Makati
+31,Jose Garcia,2024-04-07,Cebu City
+32,Jose Garcia,2025-04-12,Pasig
+33,Juan Reyes,2024-10-18,Makati
+34,Jose Reyes,2025-03-30,Pasig
+35,Jose Dela Cruz,2025-01-31,Pasig
+36,Jose Garcia,2022-12-06,Pasig
+37,Ana Dela Cruz,2025-12-12,Cebu City
+38,Jose Dela Cruz,2024-10-05,Pasig
+39,Jose Garcia,2023-07-13,Quezon City
+40,Ana Santos,2022-05-10,Cebu City
+41,Maria Garcia,2025-07-10,Makati
+42,Ana Dela Cruz,2024-11-04,Cebu City
+43,Jose Santos,2022-07-27,Quezon City
+44,Maria Santos,2025-06-13,Makati
+45,Maria Santos,2022-05-03,Pasig
+46,Maria Santos,2024-09-20,Cebu City
+47,Maria Dela Cruz,2023-08-29,Pasig
+48,Jose Garcia,2022-07-27,Cebu City
+49,Maria Dela Cruz,2023-05-07,Pasig
+50,Maria Dela Cruz,2023-05-24,Quezon City
+51,Maria Reyes,2024-03-30,Pasig
+52,Maria Dela Cruz,2023-01-21,Quezon City
+53,Juan Dela Cruz,2023-08-19,Pasig
+54,Ana Garcia,2023-07-30,Pasig
+55,Jose Dela Cruz,2023-12-01,Pasig
+56,Juan Dela Cruz,2025-08-26,Makati
+57,Maria Dela Cruz,2024-07-05,Pasig
+58,Ana Reyes,2023-02-28,Pasig
+59,Jose Reyes,2023-03-21,Quezon City
+60,Jose Dela Cruz,2025-11-13,Quezon City
+61,Juan Santos,2024-04-03,Quezon City
+62,Ana Garcia,2024-04-07,Makati
+63,Ana Dela Cruz,2023-12-08,Makati
+64,Juan Dela Cruz,2022-08-05,Quezon City
+65,Maria Reyes,2022-09-08,Makati
+66,Ana Dela Cruz,2023-11-04,Makati
+67,Maria Reyes,2024-05-03,Makati
+68,Jose Dela Cruz,2023-11-07,Pasig
+69,Jose Dela Cruz,2022-07-03,Quezon City
+70,Maria Dela Cruz,2024-08-24,Quezon City
+71,Juan Santos,2022-09-23,Cebu City
+72,Ana Reyes,2025-03-15,Pasig
+73,Ana Dela Cruz,2022-11-25,Quezon City
+74,Juan Dela Cruz,2024-02-03,Pasig
+75,Juan Dela Cruz,2024-09-08,Makati
+76,Maria Garcia,2022-10-01,Pasig
+77,Juan Dela Cruz,2023-12-28,Makati
+78,Juan Garcia,2025-06-29,Cebu City
+79,Jose Santos,2023-01-27,Quezon City
+80,Jose Reyes,2023-05-31,Makati
+81,Jose Dela Cruz,2024-01-13,Makati
+82,Maria Garcia,2022-09-03,Makati
+83,Maria Reyes,2023-09-14,Pasig
+84,Juan Reyes,2024-09-28,Cebu City
+85,Jose Santos,2025-06-10,Pasig
+86,Maria Dela Cruz,2024-01-26,Pasig
+87,Jose Garcia,2025-12-31,Quezon City
+88,Jose Reyes,2022-12-09,Makati
+89,Maria Dela Cruz,2022-07-27,Pasig
+90,Maria Garcia,2022-09-08,Makati
+91,Ana Garcia,2024-10-03,Cebu City
+92,Maria Dela Cruz,2025-08-05,Pasig
+93,Ana Garcia,2025-05-31,Cebu City
+94,Maria Santos,2025-09-26,Pasig
+95,Jose Reyes,2022-12-04,Cebu City
+96,Juan Santos,2023-08-11,Cebu City
+97,Jose Reyes,2025-01-24,Quezon City
+98,Jose Santos,2024-10-30,Cebu City
+99,Jose Santos,2025-10-27,Quezon City
+100,Maria Reyes,2024-10-05,Quezon City
+101,Ana Dela Cruz,2022-09-28,Makati
+102,Maria Reyes,2022-01-26,Pasig
+103,Juan Reyes,2024-05-03,Cebu City
+104,Maria Reyes,2023-02-10,Cebu City
+105,Ana Santos,2025-01-27,Pasig
+106,Maria Garcia,2022-06-13,Cebu City
+107,Jose Garcia,2024-08-17,Cebu City
+108,Jose Reyes,2022-08-13,Cebu City
+109,Ana Santos,2023-11-27,Makati
+110,Jose Dela Cruz,2023-07-13,Makati
+111,Maria Santos,2024-09-22,Cebu City
+112,Ana Reyes,2022-04-11,Cebu City
+113,Jose Dela Cruz,2022-11-15,Makati
+114,Maria Dela Cruz,2024-09-29,Pasig
+115,Juan Garcia,2022-12-12,Cebu City
+116,Maria Dela Cruz,2023-07-05,Cebu City
+117,Jose Reyes,2023-12-03,Quezon City
+118,Maria Santos,2022-03-19,Makati
+119,Jose Dela Cruz,2023-01-12,Pasig
+120,Jose Santos,2025-04-15,Makati
+121,Maria Santos,2024-04-24,Quezon City
+122,Maria Santos,2024-11-29,Pasig
+123,Jose Santos,2022-07-20,Quezon City
+124,Juan Dela Cruz,2023-01-20,Pasig
+125,Ana Garcia,2024-03-02,Quezon City
+126,Maria Reyes,2022-02-15,Cebu City
+127,Juan Reyes,2024-08-04,Makati
+128,Juan Garcia,2025-07-09,Pasig
+129,Juan Reyes,2025-04-01,Pasig
+130,Ana Santos,2025-10-31,Makati
+131,Juan Garcia,2022-04-21,Pasig
+132,Ana Reyes,2022-09-20,Cebu City
+133,Jose Santos,2022-11-19,Cebu City
+134,Maria Garcia,2025-06-24,Pasig
+135,Ana Santos,2025-11-23,Pasig
+136,Maria Reyes,2025-08-16,Cebu City
+137,Jose Santos,2024-01-01,Makati
+138,Juan Garcia,2023-04-25,Quezon City
+139,Juan Garcia,2023-06-30,Quezon City
+140,Jose Reyes,2024-04-18,Quezon City
+141,Maria Garcia,2025-04-04,Quezon City
+142,Ana Garcia,2025-02-14,Pasig
+143,Maria Reyes,2024-08-27,Cebu City
+144,Maria Reyes,2025-03-20,Makati
+145,Maria Reyes,2024-11-21,Quezon City
+146,Ana Dela Cruz,2024-06-13,Makati
+147,Maria Santos,2025-10-09,Makati
+148,Juan Santos,2022-02-26,Cebu City
+149,Ana Santos,2022-07-15,Makati
+150,Juan Santos,2024-10-13,Quezon City
+151,Ana Garcia,2025-10-08,Makati
+152,Juan Santos,2024-05-29,Makati
+153,Jose Santos,2024-02-02,Cebu City
+154,Juan Santos,2022-07-24,Pasig
+155,Jose Garcia,2023-03-18,Makati
+156,Juan Santos,2025-08-30,Quezon City
+157,Jose Santos,2023-11-29,Pasig
+158,Juan Garcia,2022-05-14,Quezon City
+159,Maria Santos,2025-04-20,Cebu City
+160,Jose Dela Cruz,2023-06-14,Cebu City
+161,Ana Garcia,2024-02-10,Makati
+162,Ana Dela Cruz,2024-02-03,Makati
+163,Maria Reyes,2024-01-22,Makati
+164,Maria Garcia,2025-03-03,Cebu City
+165,Juan Reyes,2022-07-12,Pasig
+166,Juan Reyes,2025-10-30,Pasig
+167,Ana Garcia,2024-05-01,Makati
+168,Ana Reyes,2023-10-28,Pasig
+169,Jose Santos,2024-06-29,Pasig
+170,Jose Reyes,2022-04-24,Makati
+171,Maria Reyes,2022-11-24,Quezon City
+172,Ana Reyes,2024-04-11,Cebu City
+173,Maria Reyes,2023-11-09,Pasig
+174,Maria Reyes,2024-02-22,Quezon City
+175,Ana Reyes,2022-10-26,Cebu City
+176,Maria Reyes,2022-05-26,Pasig
+177,Jose Santos,2023-12-11,Cebu City
+178,Juan Reyes,2025-12-29,Quezon City
+179,Jose Dela Cruz,2025-02-24,Pasig
+180,Juan Reyes,2025-05-07,Pasig
+181,Ana Reyes,2022-09-17,Quezon City
+182,Jose Reyes,2022-08-06,Cebu City
+183,Jose Reyes,2024-01-29,Makati
+184,Juan Santos,2022-01-27,Pasig
+185,Ana Santos,2022-10-26,Makati
+186,Maria Dela Cruz,2022-12-01,Cebu City
+187,Maria Dela Cruz,2024-10-10,Pasig
+188,Maria Garcia,2025-11-11,Makati
+189,Ana Reyes,2025-11-30,Makati
+190,Juan Garcia,2025-10-06,Quezon City
+191,Ana Reyes,2024-03-07,Cebu City
+192,Maria Reyes,2025-07-07,Makati
+193,Maria Dela Cruz,2023-06-23,Makati
+194,Ana Reyes,2025-09-08,Makati
+195,Juan Santos,2024-08-04,Pasig
+196,Jose Reyes,2025-12-25,Pasig
+197,Jose Garcia,2024-08-22,Pasig
+198,Jose Garcia,2025-03-04,Makati
+199,Jose Reyes,2025-09-29,Quezon City
+200,Juan Santos,2023-04-21,Quezon City
+201,Maria Reyes,2022-02-26,Cebu City
+202,Jose Dela Cruz,2022-04-14,Makati
+203,Maria Dela Cruz,2022-11-17,Pasig
+204,Maria Dela Cruz,2024-03-04,Pasig
+205,Juan Dela Cruz,2024-04-18,Cebu City
+206,Ana Dela Cruz,2025-02-26,Quezon City
+207,Jose Garcia,2022-07-17,Makati
+208,Juan Reyes,2024-10-11,Cebu City
+209,Jose Garcia,2025-08-30,Quezon City
+210,Maria Garcia,2022-04-02,Makati
+211,Jose Reyes,2022-03-21,Pasig
+212,Juan Garcia,2022-04-19,Cebu City
+213,Juan Reyes,2022-11-01,Pasig
+214,Maria Reyes,2024-02-17,Pasig
+215,Ana Santos,2025-04-04,Quezon City
+216,Juan Dela Cruz,2023-03-30,Makati
+217,Juan Dela Cruz,2022-08-26,Cebu City
+218,Maria Dela Cruz,2022-02-15,Cebu City
+219,Ana Santos,2025-07-02,Pasig
+220,Ana Santos,2023-07-08,Cebu City
+221,Juan Garcia,2025-05-04,Makati
+222,Ana Garcia,2022-04-29,Cebu City
+223,Jose Reyes,2025-01-30,Pasig
+224,Jose Dela Cruz,2024-01-01,Makati
+225,Jose Garcia,2024-02-08,Pasig
+226,Juan Reyes,2025-04-28,Cebu City
+227,Jose Dela Cruz,2023-03-04,Quezon City
+228,Jose Reyes,2024-09-05,Cebu City
+229,Juan Santos,2024-05-24,Pasig
+230,Maria Dela Cruz,2024-02-26,Cebu City
+231,Juan Reyes,2024-09-08,Quezon City
+232,Maria Garcia,2025-07-05,Pasig
+233,Maria Santos,2025-12-05,Quezon City
+234,Ana Santos,2024-02-17,Quezon City
+235,Maria Reyes,2023-04-07,Pasig
+236,Ana Dela Cruz,2024-01-01,Quezon City
+237,Maria Santos,2024-06-29,Quezon City
+238,Maria Garcia,2024-07-18,Makati
+239,Jose Santos,2022-08-19,Quezon City
+240,Maria Dela Cruz,2022-05-16,Quezon City
+241,Maria Dela Cruz,2022-08-04,Quezon City
+242,Juan Reyes,2022-03-29,Makati
+243,Maria Santos,2023-03-08,Pasig
+244,Jose Dela Cruz,2024-11-24,Pasig
+245,Maria Reyes,2025-03-05,Pasig
+246,Ana Garcia,2025-10-23,Pasig
+247,Jose Garcia,2024-02-14,Quezon City
+248,Maria Garcia,2023-07-04,Pasig
+249,Maria Santos,2022-05-29,Makati
+250,Maria Dela Cruz,2024-02-03,Quezon City
+251,Juan Santos,2022-02-03,Pasig
+252,Maria Dela Cruz,2023-01-09,Makati
+253,Juan Dela Cruz,2022-05-04,Quezon City
+254,Juan Dela Cruz,2022-03-27,Quezon City
+255,Juan Santos,2025-11-13,Makati
+256,Juan Garcia,2023-06-18,Cebu City
+257,Maria Reyes,2025-08-14,Quezon City
+258,Jose Reyes,2025-05-18,Cebu City
+259,Juan Dela Cruz,2022-11-06,Pasig
+260,Juan Santos,2022-01-05,Cebu City
+261,Ana Reyes,2023-10-19,Cebu City
+262,Jose Reyes,2023-06-08,Pasig
+263,Ana Garcia,2022-09-03,Makati
+264,Maria Santos,2025-01-29,Makati
+265,Ana Reyes,2022-09-30,Quezon City
+266,Juan Garcia,2024-10-10,Makati
+267,Jose Santos,2023-06-24,Quezon City
+268,Ana Garcia,2023-11-29,Quezon City
+269,Juan Santos,2023-05-09,Cebu City
+270,Juan Garcia,2023-11-28,Pasig
+271,Maria Garcia,2022-02-16,Pasig
+272,Ana Garcia,2023-11-29,Cebu City
+273,Ana Garcia,2023-03-26,Cebu City
+274,Ana Dela Cruz,2022-09-01,Cebu City
+275,Juan Dela Cruz,2024-03-19,Makati
+276,Jose Reyes,2023-01-15,Pasig
+277,Jose Reyes,2024-08-24,Pasig
+278,Maria Garcia,2022-01-29,Quezon City
+279,Juan Santos,2025-12-08,Cebu City
+280,Jose Santos,2024-12-01,Makati
+281,Maria Reyes,2022-12-09,Pasig
+282,Ana Santos,2024-08-17,Quezon City
+283,Ana Reyes,2025-07-02,Quezon City
+284,Ana Dela Cruz,2025-02-24,Cebu City
+285,Juan Santos,2024-09-26,Makati
+286,Ana Dela Cruz,2023-04-09,Makati
+287,Jose Reyes,2023-05-24,Quezon City
+288,Ana Reyes,2022-02-07,Pasig
+289,Juan Dela Cruz,2025-05-31,Cebu City
+290,Ana Garcia,2024-04-10,Makati
+291,Jose Garcia,2024-03-10,Makati
+292,Maria Santos,2023-12-30,Cebu City
+293,Jose Santos,2025-07-15,Makati
+294,Ana Reyes,2024-05-13,Cebu City
+295,Ana Garcia,2022-12-29,Quezon City
+296,Juan Reyes,2022-06-25,Quezon City
+297,Maria Santos,2022-02-13,Cebu City
+298,Juan Garcia,2023-12-21,Cebu City
+299,Maria Reyes,2024-09-01,Makati
+300,Jose Santos,2025-07-16,Quezon City
