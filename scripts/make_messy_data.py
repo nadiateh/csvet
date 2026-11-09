@@ -7,7 +7,15 @@ random.seed(28)
 
 FIRST_NAMES = ["Juan", "Maria", "Jose", "Ana"]
 LAST_NAMES = ["Dela Cruz", "Santos", "Reyes", "Garcia"]
-CITIES = ["Quezon City", "Makati", "Pasig", "Cebu City"]
+CITY_VARIANTS = {
+    "Quezon City": ["Quezon City", "quezon city", "QC", "Q.C", "Quezon City "],
+    "Makati": ["Makati", "MAKATI", "Makati City", "makati "],
+    "Pasig": ["Pasig", "pasig city", "Pasig City", 'PASIG'],
+    "Cebu City": ["Cebu City", "cebu", "Cebu city", "CEBU CITY"],
+}
+DATE_FORMATS = ["%Y-%m-%d", "%m/%d/%Y","%d-%b-%Y", "%B %d, %Y", "%Y.%m.%d"]
+
+
 
 def messy_name(name):
     style = random.choice(["as_is", "upper", "lower", "spaces"])
@@ -19,20 +27,11 @@ def messy_name(name):
         return " " + name.replace(" ", "  ") + " "
     return name
 
-def messy_city(city):
-    style = random.choice(["as_is", "upper", "lower"])
-    if style == "upper":
-        return city.upper()
-    if style == "lower":
-        return city.lower()
-    return city
-
-
 def make_row(i):
     first = random.choice(FIRST_NAMES)
     last = random.choice(LAST_NAMES)
     signup = date(2022, 1, 1) + timedelta(days=random.randint(0, 1460))
-    city = random.choice(CITIES)
+    city = random.choice(list(CITY_VARIANTS))
 
     clean = {
         "customer_id": i,
@@ -44,8 +43,8 @@ def make_row(i):
     messy = {
         "customer_id": i,
         "full_name": messy_name(clean["full_name"]),
-        "signup_date": signup.strftime("%m/%d/%Y"),
-        "city": messy_city(clean["city"]),
+        "signup_date": signup.strftime(random.choice(DATE_FORMATS)),
+        "city": random.choice(CITY_VARIANTS[city]),
     }
     return clean, messy
 
