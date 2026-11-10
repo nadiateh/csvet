@@ -80,3 +80,12 @@ def test_parse_dates_needs_formats():
         ParseDates.model_validate(
             {"type": "parse_dates", "column": "signup_date", "input_formats": [], "reason": "x"}
         )
+
+def test_to_number_decimals_defaults_to_two():
+    rule = ToNumber.model_validate({"type": "to_number", "column": "x", "reason": "x"})
+    assert rule.decimals == 2
+
+
+def test_to_number_rejects_negative_decimals():
+    with pytest.raises(ValidationError):
+        ToNumber.model_validate({"type": "to_number", "column": "x", "decimals": -1, "reason": "x"})

@@ -1,7 +1,19 @@
-from multiprocessing.sharedctypes import Value
-import pandas as pd
+from encodings.idna import ToUnicode
+from datetime import datetime
 
-from csvet.rules import MapValues, NormalizeText
+from csvet.profiler import is_null_like, to_number
+from csvet.rules import MapValues, NormalizeText, ParseDates, ToNumber
+
+def parse_date(value, formats):
+    found = set()
+    for fmt in formats:
+        try:
+            found.add(datetime.strptime(value.strip(), fmt).date())
+        except ValueError:
+            pass
+    if len(found) == 1:
+        return found.pop().isoformat()
+    return None
 
 def new_value(rule, value):
     if isinstance(rule, NormalizeText):
@@ -16,6 +28,22 @@ def new_value(rule, value):
 
     if isinstance(rule, MapValues):
         return rule.mapping.get(value, value)
+
+    if isinstance(rule, ParseDates):
+        if is_null_like(value):
+            return ""
+        parsed = parse_date(value, rule.input_formats)
+        if parsed is None:
+            return value
+        return parsed
+
+    if isinstance(rule, ToNumber):
+        if is_null_like(value):
+            return ""
+        number = to_number(value)
+        if number is None:
+            return value
+        return f"{number:.{rule.decimals}f}"
 
     raise ValueError(f"No code yet for rule type: {rule.type}")
 

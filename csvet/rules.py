@@ -27,6 +27,7 @@ class ParseDates(BaseModel):
 class ToNumber(BaseModel):
     type: Literal["to_number"]
     column: str
+    decimals: int = Field(default=2, ge=0, le=6)
     reason: str
 
 
