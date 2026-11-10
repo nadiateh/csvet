@@ -5,6 +5,8 @@ import json
 from pathlib import Path
 import math
 
+from csvet.privacy import mask_profile
+
 NULL_TOKENS = {"", "na", "n/a", "null", "none", "nan", "-", "?", "unknown"}
 MAX_CATEGORY_VAULES = 30
 
@@ -86,8 +88,15 @@ if __name__ == "__main__":
 
     df = load_raw_csv("data/raw/customers_messy.csv")
     profile = profile_dataframe(df)
+    llm_profile = mask_profile(profile)
 
-    out_path = Path("data/output/customers_messy.profile.json")
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(json.dumps(profile, indent=2, ensure_ascii=False), encoding="utf-8")
-    print("Saved ->", out_path)
+    out_dir = Path("data/output")
+    out_dir.parent.mkdir(parents=True, exist_ok=True)
+
+    full_path = out_dir / "customers_messy.profile.json"
+    llm_path = out_dir / "customers_messy.llim_profile.json"
+    full_path.write_text(json.dumps(profile, indent=2, ensure_ascii=False), encoding="utf-8")
+    llm_path.write_text(json.dumps(llm_profile, indent=2, ensure_ascii=False), encoding="utf-8")
+
+    print("FUll profile (stays on your computer) ->", full_path)
+    print("Masked profile (safe to send to LLM)  ->", llm_path)
