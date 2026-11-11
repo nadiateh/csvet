@@ -2,7 +2,7 @@ import pandas as pd
 import pytest
 
 from csvet.engine import apply_rules
-from csvet.rules import MapValues, NormalizeText, ParseDates, ToNumber
+from csvet.rules import FlagRange, MapValues, NormalizeText, ParseDates, ToNumber
 
 DATE_FORMATS = ["%Y-%m-%d", "%m/%d/%Y", "%d-%b-%Y", "%B %d, %Y", "%Y.%m.%d"]
 
@@ -123,3 +123,68 @@ def test_running_the_same_rules_twice_changes_nothing_the_second_time():
     twice, changes = apply_rules(once, rules)
     assert once["x"].tolist() == twice["x"].tolist()
     assert changes == []
+
+# ---------- flags ----------
+
+
+def flag_rule(min_value=None, max_value=None):
+    return FlagRange(type="flag_range", column="x", min_value=min_value,
+                     max_value=max_value, reason="x")
+
+
+def flags_only(log):
+    return [e for e in log if e["action"] == "flagged"]
+
+
+def test_changes_are_marked_as_changed():
+    _, log = apply_rules(make_df(), [title_rule()])
+    assert all(e["action"] == "changed" for e in log)
+
+
+def test_flag_range_flags_values_outside_the_limits():
+    result, log = run_one(flag_rule(min_value=1, max_value=120), ["25", "230", "-5", "0"])
+    assert [e["before"] for e in flags_only(log)] == ["230", "-5", "0"]
+    assert "above the maximum 120" in flags_only(log)[0]["note"]
+    assert "below the minimum 1" in flags_only(log)[1]["note"]
+
+
+def test_flag_range_never_changes_values():
+    values = ["25", "230", "-5"]
+    result, _ = run_one(flag_rule(min_value=1, max_value=120), values)
+    assert result == values
+
+
+def test_flag_range_works_with_only_a_maximum():
+    _, log = run_one(flag_rule(max_value=10000), ["500", "2978890.00"])
+    assert [e["before"] for e in flags_only(log)] == ["2978890.00"]
+    assert "2,978,890" in flags_only(log)[0]["note"]
+
+
+def test_flag_range_ignores_missing_values_but_flags_text():
+    _, log = run_one(flag_rule(min_value=1), ["", "N/A", "abc"])
+    assert [e["before"] for e in flags_only(log)] == ["abc"]
+
+
+def test_ambiguous_date_is_flagged_and_left_alone():
+    formats = ["%m/%d/%Y", "%d/%m/%Y"]
+    result, log = run_one(date_rule(formats), ["03/04/2025"])
+    assert result == ["03/04/2025"]
+    assert flags_only(log)[0]["note"] == "ambiguous date, could be 2025-03-04 or 2025-04-03"
+
+
+def test_unreadable_date_is_flagged():
+    result, log = run_one(date_rule(), ["next tuesday"])
+    assert result == ["next tuesday"]
+    assert len(flags_only(log)) == 1
+
+
+def test_missing_dates_are_cleaned_but_not_flagged():
+    result, log = run_one(date_rule(), ["N/A", ""])
+    assert result == ["", ""]
+    assert flags_only(log) == []
+
+
+def test_to_number_flags_text_it_cannot_read():
+    result, log = run_one(number_rule(), ["Makati"])
+    assert result == ["Makati"]
+    assert flags_only(log)[0]["note"] == "not a number"
