@@ -8,7 +8,7 @@ import math
 from csvet.privacy import mask_profile
 
 NULL_TOKENS = {"", "na", "n/a", "null", "none", "nan", "-", "?", "unknown"}
-MAX_CATEGORY_VAULES = 30
+MAX_CATEGORY_VALUES = 30
 
 def load_raw_csv(path):
     return pd.read_csv(path, dtype=str, keep_default_na=False, encoding="utf-8")
@@ -63,7 +63,7 @@ def profile_column(series):
     filled = [v for v in values if not is_null_like(v)]
     value_counts = Counter(filled)
 
-    if len(value_counts) <= MAX_CATEGORY_VAULES:
+    if len(value_counts) <= MAX_CATEGORY_VALUES:
         how_many = len(value_counts)
     else:
         how_many = 10

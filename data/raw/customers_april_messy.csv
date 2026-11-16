@@ -1,0 +1,301 @@
+customer_id,full_name,signup_date,city,monthly_spend,age
+1,Jose Santos,19-Mar-2024,Quezon City ,401.82,52
+2, Juan  Garcia ,2024-05-06,Quezon City ,872.86,53
+3,juan garcia,"April 12, 2022",MAKATI,329.43,26
+4,Maria Dela Cruz,2025.04.06,Makati,"₱1,241.71",53
+5,JOSE GARCIA,04/14/2025,Cebu City,PHP 1211.43,33
+6,ANA REYES,01-Jun-2025,quezon city, 529.58,44
+7, Juan  Reyes ,2023-11-28,Pasig,PHP 1863.24,55
+8,juan reyes,2025-08-18,CEBU CITY,PHP 995.87,42
+9, Juan  Santos ,"August 12, 2023",Makati,"₱2,266.42",43
+10, Maria  Garcia ,01/31/2025,pasig city,2176.91,40
+11,MARIA DELA CRUZ,"September 20, 2024","Makati, PH",PHP 934.69,18
+12,Maria Dela Cruz,"July 24, 2024",CEBU CITY,1313.59,43
+13,Ana Santos,2022.08.14,pasig city,1881.04,24
+14,juan santos,2025.06.11,Cebu city, 614.94,34
+15,ana garcia,17-Sep-2024,PASIG,₱439.48,24
+16,Jose Santos,14-Nov-2025,Quezon City ,PHP 2321.80,37
+17,MARIA REYES,07/27/2025,makati ,"₱1,916.04",68
+18,juan dela cruz,"July 27, 2023",Cebu city,PHP 924.69,62
+19,Ana Santos,"November 23, 2023",Makati City,1550.43,57
+20,ana santos,2024-09-06,makati ," 1,413.99",58
+21,MARIA SANTOS,2022.09.18,Quezon City , 622.22,47
+22, Maria  Dela  Cruz ,01/30/2022,quezon city,1673.43,26
+23,maria reyes,"June 16, 2023",CEBU CITY,"₱2,534.75",21
+24,JUAN GARCIA,01/11/2023,Q.C,2371.91,27
+25,Ana Dela Cruz,2025-02-21,Quezon City , 894.78,35
+26, Juan  Garcia ,2023.10.29,MAKATI,PHP 2138.65,46
+27,maria garcia,2022-10-08,cebu, 539.54,46
+28, Juan  Santos ,08/10/2025,Pasig, 599.34,26
+29,maria santos,"December 17, 2025",cebu,PHP 2982.40,43
+30, Juan  Reyes ,08-Feb-2025,Cebu city,1432.28,19
+31,MARIA DELA CRUZ,22-Jun-2022,pasig city, 960.38,67
+32,jose garcia,2022-11-02,cebu," 2,160.17",23
+33,Juan Dela Cruz,18-Jun-2023,Quezon City,-,32
+34,jose santos,2022-03-30,MAKATI,"₱2,825.75",28
+35,Maria Reyes,01-Jul-2024,Makati,-,69
+36, Maria  Garcia ,"May 19, 2023",CEBU CITY,PHP 496.59,70
+37,Jose Santos,12/18/2025,Makati,1332.15,40
+38,ana santos,2022.04.24,quezon city,,42
+39,ana dela cruz,06/24/2023,Pasig,PHP 2892.00,53
+40,JOSE GARCIA,06/21/2022,Cebu City,980.00,59
+41,ANA DELA CRUZ,2024-03-17,Quezon City ,"₱1,038.01",58
+42,ANA REYES,2024-10-09,"Makati, PH", 994.69,57
+43,MARIA DELA CRUZ,06-Nov-2025,Makati, 437.26,20
+44,Juan Santos,2024.09.29,Pasig,208.28,69
+45, Juan  Reyes ,"April 26, 2023",makati ,845.06,59
+46,juan santos,2022.06.08,"Makati, PH",,59
+47,juan santos,"October 15, 2025",CEBU CITY," 1,013.40",51
+48,Maria Reyes,2022.06.25,CEBU CITY,PHP 248.01,47
+49,maria dela cruz,05-Apr-2025,quezon city,PHP 595.87,51
+50, Maria  Garcia ,"September 22, 2024",CEBU CITY,PHP 268.54,18
+51,ana reyes,"September 05, 2022",Pasig,₱203.88,66
+52,Jose Reyes,02-Feb-2024,Q.C,PHP 1299.12,55
+53, Juan  Reyes ,2025.07.24,Makati City,₱897.11,35
+54,ANA DELA CRUZ,2025-07-16,Cebu City," 2,756.59",53
+55,jose garcia,11-Apr-2022,Makati City,PHP 677.14,44
+56, Jose  Garcia ,2025-09-05,MAKATI,"₱1,041.34",53
+57, Ana  Santos ,07/16/2024,pasig city,"₱2,989.13",46
+58,JUAN REYES,2023-05-05,PASIG, 922.40,54
+59,ana reyes,11/24/2023,Q City,"₱1,593.81",54
+60,Ana Garcia,08/15/2025,Cebu City," 1,408.14",37
+61, Ana  Garcia ,"January 01, 2022",quezon city,1295.26,70
+62,JUAN GARCIA,2022.06.24,Quezon City,PHP 202.82,26
+63,ANA DELA CRUZ,"July 23, 2022",QC,"₱1,039.98",unknown
+64, Jose  Garcia ,2023.07.25,pasig city,N/A,33
+65, Jose  Dela  Cruz ,2022-02-14,Makati City,"₱1,594.27",61
+66, Maria  Garcia ,03/11/2022,Pasig,PHP 2210.33,41
+67,MARIA GARCIA,"February 15, 2023",pasig city,PHP 2343.40,30
+68,Ana Santos,2023.04.03,cebu,1366680.00,unknown
+69,maria garcia,2022-04-17,Quezon City,₱714.49,46
+70, Ana  Dela  Cruz ,10/01/2023,Cebu City,2548.56,39
+71,ana dela cruz,"February 23, 2025",Makati,1263.36,67
+72,Ana Santos,"October 25, 2023",pasig city,,48
+73,juan reyes,04-Feb-2023,QC,2714.95,39
+74,Jose Reyes,2023-09-02,quezon city,2219.40,56
+75,ANA REYES,2024-05-30,Cebu city,₱570.58,49
+76,JOSE GARCIA,01/12/2024,Q.C,1632.28,43
+77,Jose Santos,05/23/2024,Quezon City," 2,964.91",34
+78,ANA SANTOS,2023.04.25,Makati,PHP 1366.15,57
+79,JOSE REYES,06/18/2023,MAKATI,PHP 1429.31,29
+80,JOSE DELA CRUZ,2024-03-22,PASIG,2977.86,50
+81,Maria Garcia,2024-02-05,quezon city,"₱2,654.27",32
+82,Maria Garcia,2025-05-20,Pasig City,N/A,60
+83,maria reyes,"March 20, 2022",Makati City,"₱2,480.28",70
+84, Juan  Garcia ,2025.01.27,cebu,376.16,24
+85,jose garcia,2023.08.04,Pasig City," 1,368.97",21
+86, Jose  Santos ,03/11/2024,CEBU CITY,769.27,18
+87,JOSE GARCIA,"November 29, 2022",Makati,PHP 240.54,53
+88, Jose  Reyes ,"November 28, 2022",MAKATI,PHP 2790.40,24
+89,ANA REYES,04/20/2022,CEBU CITY,₱440.62,63
+90,MARIA DELA CRUZ,03/29/2024,MAKATI,1273.01,25
+91,juan reyes,"August 30, 2022",Cebu city,"₱1,877.66",53
+92, Ana  Garcia ,01/02/2023,Q.C, 208.82,49
+93,Ana Dela Cruz,"May 18, 2022","Makati, PH",,41
+94,JOSE DELA CRUZ,2022-04-22,Cebu City,2026.69,68
+95,ana reyes,12/05/2022,Makati City,PHP 382.45,40
+96,jose garcia,03-Mar-2023,Pasig,"₱1,923.43",33
+97,Jose Reyes,2024.02.11,Makati,PHP 2416.95,34
+98,juan reyes,"January 02, 2025",Cebu city,"₱2,265.18",41
+99,ana santos,28-Dec-2022,Q City,PHP 1028.87,51
+100,Maria Santos,08/19/2023,CEBU CITY,"₱1,368.52",
+101,JUAN REYES,"September 15, 2023",Quezon City ,PHP 1663.65,52
+102,ANA SANTOS,"October 03, 2022",Quezon City,2821.45,33
+103,jose garcia,2023.06.26,Q City, 356.17,70
+104,Ana Santos,"December 05, 2022",quezon city,₱322.21,52
+105, Juan  Dela  Cruz ,2025.06.08,MAKATI,597350.00,30
+106,Ana Dela Cruz,"February 08, 2024",cebu,"₱2,285.52",47
+107, Juan  Dela  Cruz ,2023.11.19,Pasig City,PHP 2191.72,35
+108,MARIA DELA CRUZ,11/05/2024,Q City,PHP 674.35,33
+109,Maria Garcia,2025-07-15,CEBU CITY,"₱1,520.99",51
+110,MARIA GARCIA,2025-06-29,Quezon City,1781.57,28
+111,Jose Santos,2025-12-06,Q City,285440.00,26
+112, Jose  Santos ,2024-12-29,quezon city,"₱2,662.20",unknown
+113,JUAN REYES,04-Sep-2024,QC,PHP 570.43,N/A
+114, Jose  Dela  Cruz ,24-Jan-2024,Pasig,-,56
+115,Jose Garcia,2025.12.14,QC,"₱1,705.07",31
+116,JOSE DELA CRUZ,"January 09, 2022",Pasig City,PHP 1573.30,49
+117,Maria Santos,"October 17, 2024","Makati, PH",506.79,58
+118,ana garcia,06/26/2022,Cebu city,PHP 2686.66,19
+119,Maria Garcia,15-Jul-2025,"Makati, PH",PHP 2841.98,26
+120,ana reyes,2022.12.14,cebu,"₱1,427.63",67
+121,MARIA SANTOS,07/02/2023,pasig city,PHP 2312.26,70
+122,Maria Reyes,01/23/2023,Pasig,"₱2,929.41",64
+123,Jose Reyes,09-Jun-2024,pasig city, 748.33,N/A
+124, Maria  Reyes ,2024-08-06,Q City,₱596.08,56
+125,Ana Santos,"September 29, 2025",makati ,PHP 2101.87,59
+126, Ana  Santos ,"March 30, 2024",Makati, 899.17,45
+127,Maria Reyes,22-Jan-2022,cebu,"₱2,528.24",24
+128, Maria  Reyes ,2022.07.27,Cebu City,PHP 1713.90,63
+129,Ana Santos,2025.11.02,Makati City,1297.98,66
+130,juan dela cruz,2022.06.03,Cebu city,2762.22,58
+131,Maria Garcia,08/04/2024,makati ,₱659.69,67
+132,ana garcia,08/26/2023,Makati City," 2,382.57",48
+133,maria garcia,06-Jan-2022,PASIG," 1,201.34",59
+134,jose santos,09/13/2023,Cebu city,358.78,70
+135,JUAN REYES,"May 28, 2023",QC,"₱1,818.76",32
+136,MARIA DELA CRUZ,2025.10.01,Pasig, 751.64,62
+137, Juan  Reyes ,2024.05.08,Makati," 2,514.75",48
+138,Ana Santos,10/17/2024,Makati City," 1,709.72",65
+139,Jose Garcia,02/07/2024,Cebu city,,61
+140,Jose Dela Cruz,11/11/2024,CEBU CITY,"₱1,556.09",27
+141, Jose  Reyes ,29-Aug-2024,"Makati, PH",994.62,39
+142,ANA GARCIA,"November 15, 2023",Pasig,PHP 2643.30,40
+143,Maria Dela Cruz,"March 24, 2022",Cebu city,,43
+144,Ana Dela Cruz,10/22/2024,Cebu City," 1,925.76",58
+145,Maria Dela Cruz,13-May-2024,quezon city,PHP 2758.43,59
+146,Jose Santos,"May 13, 2024",Quezon City ,1090.74,45
+147,ANA GARCIA,"July 03, 2024",Q.C,238.57,42
+148,Maria Dela Cruz,2024-05-24,quezon city,225.12,unknown
+149,MARIA GARCIA,2023-01-19,QC," 1,223.45",65
+150,Jose Dela Cruz,"March 07, 2022",QC,PHP 368.54,59
+151, Ana  Dela  Cruz ,"October 10, 2023",pasig city,"₱2,855.53",64
+152,maria garcia,2024.09.03,Cebu city,PHP 2377.66,46
+153, Jose  Dela  Cruz ,"November 06, 2022",PASIG,"₱1,836.07",33
+154,Juan Reyes,23-Jun-2023,pasig city,"₱1,382.00",55
+155, Ana  Reyes ,12/30/2024,Q City,"₱1,710.95",230
+156,Ana Santos,2023.06.06,QC,2415.66,47
+157,Jose Reyes,09/03/2024,Makati City,PHP 728.62,30
+158,maria santos,"April 02, 2022",Cebu City,"₱1,246.31",N/A
+159, Juan  Dela  Cruz ,2022.03.10,"Makati, PH","₱2,972.13",54
+160,ana dela cruz,07/04/2024,MAKATI, 910.19,0
+161, Jose  Garcia ,2024-09-24,Q City,2615.32,58
+162,JUAN GARCIA,01/10/2023,cebu,2578.14,41
+163, Juan  Dela  Cruz ,2022-04-07,Pasig,"₱2,400.85",
+164,jose garcia,"August 29, 2025",Quezon City,PHP 1517.03,41
+165,Maria Santos,10/19/2025,quezon city,1509.11,30
+166,Maria Garcia,"July 18, 2022",Cebu city,PHP 2557.30,58
+167, Jose  Santos ,2023.11.11,MAKATI," 2,259.98",29
+168,ana santos,11/15/2022,QC, 958.10,36
+169,ANA DELA CRUZ,2022.11.11,Q.C,PHP 1965.80,68
+170, Jose  Garcia ,20-Jun-2023,makati ,2789220.00,24
+171,jose santos,2025.08.03,quezon city,-,50
+172,JOSE GARCIA,03/25/2022,cebu,₱810.14,54
+173,JUAN DELA CRUZ,05/31/2025,cebu,PHP 2330.58,0
+174, Ana  Dela  Cruz ,2024-11-27,Pasig," 1,137.61",58
+175,jose santos,2023.01.17,Pasig,PHP 301.68,62
+176, Juan  Dela  Cruz ,2024.01.01,Makati,PHP 2485.30,38
+177,ANA GARCIA,2024-11-17,quezon city,1684.43,52
+178,JUAN REYES,28-May-2023,Quezon City, 253.46,62
+179, Juan  Reyes ,"July 12, 2022","Makati, PH",PHP 325.48,25
+180, Maria  Santos ,04/10/2023,Makati," 2,071.57",47
+181,juan garcia,"April 17, 2022",Pasig City," 1,146.94",0
+182,maria reyes,2023-05-26,cebu,2055.73,18
+183, Juan  Santos ,2022-10-13,Cebu City,2914.15,67
+184,Jose Dela Cruz,"June 26, 2025",quezon city,900.63,51
+185,MARIA DELA CRUZ,"May 04, 2022",Pasig,₱435.53,55
+186, Jose  Reyes ,2023.05.14,Q City,"₱2,272.13",36
+187,jose garcia,2025-01-27,pasig city,PHP 1914.84,48
+188,ana garcia,2022.01.25,Pasig City, 653.42,33
+189,maria reyes,"April 27, 2022",Q City,642.99,22
+190,JOSE DELA CRUZ,"December 02, 2024",Makati City,PHP 2969.06,61
+191,JOSE DELA CRUZ,"August 31, 2024",Pasig,2396.84,63
+192,juan garcia,2024.03.25,"Makati, PH",1369.15,68
+193, Ana  Reyes ,24-Dec-2023,Pasig," 1,187.27",51
+194,jose santos,11-Jun-2024,cebu,PHP 1827.43,23
+195,juan dela cruz,2022.04.08,Pasig City," 1,780.82",49
+196,ana garcia,"August 08, 2024",Pasig,312.99,61
+197, Jose  Garcia ,"August 21, 2025",makati ,PHP 2662.54,44
+198,juan santos,2024.01.13,pasig city,1225.64,22
+199,JOSE GARCIA,2025.07.16,MAKATI," 1,666.36",70
+200,Juan Reyes,13-Mar-2025,Q City,2135.87,18
+201,juan dela cruz,2025.09.30,Quezon City ,₱749.62,49
+202,JUAN SANTOS,2022.11.18,Q.C, 280.30,22
+203,juan dela cruz,02-Nov-2025,pasig city,602.00,33
+204,Juan Reyes,01/28/2023,CEBU CITY,1946.21,19
+205,maria santos,2022-04-01,makati ,PHP 2805.31,29
+206,ANA DELA CRUZ,"May 13, 2023",Cebu city," 2,088.75",55
+207,Maria Dela Cruz,22-Dec-2022,makati ,PHP 1202.51,29
+208,ana reyes,2024.04.05,quezon city," 2,890.44",45
+209,MARIA GARCIA,03/13/2022,pasig city,2058.97,39
+210,MARIA GARCIA,"August 14, 2024",makati ,₱644.82,40
+211, Maria  Santos ,2024.07.16,Makati City,"₱2,836.84",34
+212, Maria  Dela  Cruz ,2025-10-20,Q City,"₱1,718.26",35
+213,Juan Santos,2023.04.20,Pasig City,PHP 726.28,24
+214,juan santos,14-Aug-2023,makati ," 2,486.13",43
+215,maria reyes,"December 28, 2022",Quezon City," 1,225.43",69
+216,JOSE DELA CRUZ,2023-01-08,PASIG,521.65,56
+217,JOSE SANTOS,2024.02.19,quezon city," 1,745.56",58
+218,ana reyes,2022-01-02,Quezon City ,2534.97,67
+219, Juan  Reyes ,"March 07, 2023",pasig city,PHP 2297.67,23
+220,ANA GARCIA,"November 28, 2023",cebu," 1,623.24",unknown
+221,JOSE SANTOS,2025.01.24,Makati City,"₱2,913.36",58
+222,JOSE GARCIA,"July 09, 2022",makati ,"₱1,981.22",unknown
+223,ANA SANTOS,2025.08.05,pasig city,PHP 2153.54,26
+224, Ana  Santos ,10/18/2025,Makati,N/A,47
+225, Juan  Reyes ,2023-09-15,MAKATI,PHP 508.67,37
+226, Jose  Santos ,2025-02-15,Q City,PHP 326.62,47
+227,juan garcia,2024-06-08,Cebu city,730.46,52
+228, Jose  Santos ,06/10/2022,Makati City,PHP 2291.86,19
+229,maria dela cruz,28-Sep-2023,pasig city,PHP 1261.25,59
+230, Jose  Santos ,2022-04-29,quezon city, 499.26,69
+231, Jose  Dela  Cruz ,2022-10-18,Makati, 657.19,46
+232,Jose Dela Cruz,2022.03.07,CEBU CITY,599850.00,
+233,maria garcia,2023.08.29,quezon city," 1,439.84",54
+234,Ana Garcia,2024-12-31,Makati City,PHP 2927.23,56
+235,Jose Garcia,09/06/2025,MAKATI," 1,037.07",39
+236,jose garcia,2024-01-08,MAKATI,"₱1,780.48",43
+237,juan santos,"June 04, 2023",quezon city, 724.11,60
+238,Juan Dela Cruz,2024.04.15,Quezon City," 2,439.94",26
+239,maria santos,2025.02.27,Cebu City," 2,368.94",26
+240, Juan  Santos ,2024-07-30,pasig city,536.51,26
+241,MARIA REYES,01-Dec-2023,Quezon City ,PHP 2510.77,unknown
+242,Jose Dela Cruz,12/30/2023,Pasig City,PHP 2447.46,25
+243,ana dela cruz,02/12/2022,cebu,PHP 508.17,69
+244,Maria Reyes,07-Jan-2025,pasig city," 2,855.55",18
+245, Juan  Dela  Cruz ,"January 09, 2023",cebu,2559.28,28
+246,jose santos,"April 21, 2025",QC, 790.86,70
+247,JUAN REYES,"April 01, 2025",Cebu City,"₱1,133.58",19
+248,ANA REYES,2022-05-11,Pasig,"₱1,198.13",54
+249,Juan Reyes,31-Jul-2023,Makati City,PHP 2642.88,27
+250,jose garcia,"November 16, 2023",Quezon City ,PHP 2170.83,60
+251, Jose  Santos ,"October 05, 2022",makati , 219.25,60
+252,maria dela cruz,2022-10-22,pasig city,2214.59,34
+253, Jose  Garcia ,02-Jan-2024,cebu,PHP 2218.37,22
+254, Maria  Reyes ,05/01/2023,Quezon City ,PHP 810.28,43
+255,Maria Santos,2022.04.27,Makati City,N/A,23
+256,Juan Reyes,"February 26, 2022",makati ,PHP 1099.33,65
+257, Juan  Dela  Cruz ,06-Jul-2025,PASIG,N/A,56
+258,JOSE DELA CRUZ,04/30/2024,pasig city,637.70,19
+259,jose santos,"September 08, 2025",Pasig,PHP 843.01,57
+260, Ana  Reyes ,2024-01-11,Pasig City,₱568.22,18
+261,JUAN DELA CRUZ,2025.07.03,MAKATI,PHP 541.22,52
+262,MARIA SANTOS,"November 28, 2022",Q.C,"₱1,181.32",63
+263,Ana Garcia,2023-03-11,Pasig," 2,410.49",19
+264,MARIA GARCIA,2024-04-19,Cebu city,2844.86,58
+265,maria reyes,21-Feb-2023,PASIG,"₱2,324.67",59
+266,Ana Reyes,"October 07, 2022",pasig city,₱990.18,39
+267,ana santos,2025-04-01,Q.C,"₱2,671.00",31
+268,JOSE DELA CRUZ,17-Aug-2022,MAKATI,PHP 2927.14,18
+269, Ana  Dela  Cruz ,28-Apr-2024,Pasig,"₱1,997.05",60
+270,Juan Dela Cruz,2022-10-04,Makati,1808580.00,62
+271,ANA SANTOS,2024.12.12,Cebu City,PHP 206.20,32
+272,JUAN REYES,2023-03-17,Makati City,2246920.00,unknown
+273,Juan Garcia,"February 13, 2025",Pasig City,PHP 947.18,38
+274,JOSE GARCIA,"May 14, 2024",PASIG," 1,710.99",42
+275, Juan  Santos ,05/29/2025,pasig city,2141.26,64
+276,juan dela cruz,"April 11, 2024",Pasig," 2,116.58",46
+277, Jose  Garcia ,2023.04.26,Cebu city,PHP 1193.57,22
+278, Maria  Reyes ,2023.06.22,cebu,2600580.00,40
+279,JOSE SANTOS,12/16/2024,makati ,"₱2,476.39",33
+280, Juan  Reyes ,2024-02-20,PASIG,"₱2,528.94",70
+281,jose reyes,"September 19, 2025",Pasig City," 1,466.85",23
+282,ana santos,"November 25, 2024","Makati, PH",₱215.57,26
+283,Ana Reyes,2022.02.06,MAKATI,PHP 201.26,34
+284, Jose  Reyes ,2023-05-11,pasig city,"₱2,534.60",23
+285,jose dela cruz,"June 25, 2024",CEBU CITY,PHP 1227.09,63
+286,maria santos,2025-12-28,Pasig, 376.40,31
+287, Ana  Dela  Cruz ,"August 09, 2022",CEBU CITY,"₱2,817.16",62
+288,ANA SANTOS,"November 14, 2024",Quezon City ,2076.07,65
+289,Jose Garcia,2024-07-30,Q.C,451.15,22
+290,Ana Dela Cruz,2025.10.26,makati ,"₱2,189.97",48
+291,MARIA REYES,2023.11.16,Makati City,PHP 1650.01,18
+292,jose garcia,11/12/2024,CEBU CITY," 2,105.98",37
+293, Maria  Santos ,"April 17, 2022","Makati, PH","₱1,702.18",41
+294,Maria Garcia,"December 18, 2025",Quezon City ,,18
+295, Jose  Santos ,"December 26, 2025",makati ,"₱2,445.89",230
+296,JUAN DELA CRUZ,2022-10-08,Q City,"₱2,479.03",49
+297,JOSE SANTOS,2024.12.30,Makati, 607.17,63
+298, Juan  Garcia ,04/04/2023,Pasig,N/A,46
+299,maria reyes,2025.12.18,MAKATI,"₱1,065.79",34
+300,maria garcia,03/09/2022,Pasig,"₱1,262.93",59
