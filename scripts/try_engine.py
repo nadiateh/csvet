@@ -4,7 +4,7 @@ import pandas as pd
 
 from csvet.engine import apply_rules
 from csvet.profiler import load_raw_csv
-from csvet.rules import FlagRange, MapValues, NormalizeText, ParseDates, ToNumber
+from csvet.rules import FlagRange, MapValues, NormalizeText, ParseDates, RuleSet, ToNumber
 
 DATE_FORMATS = ["%Y-%m-%d", "%m/%d/%Y", "%d-%b-%Y", "%B %d, %Y", "%Y.%m.%d"]
 
@@ -91,3 +91,7 @@ cleaned.to_csv(out_dir / "customers_cleaned.csv", index=False, encoding="utf-8-s
 pd.DataFrame(log).to_csv(out_dir / "customers_change_log.csv", index=False, encoding="utf-8-sig")
 print()
 print("Saved cleaned file and change log to", out_dir)
+
+hand_path = out_dir / "hand_rules.json"
+hand_path.write_text(RuleSet(rules=rules).model_dump_json(indent=2), encoding="utf-8")
+print("Saved the hand-written rules to", hand_path)
